@@ -1,0 +1,17 @@
+{
+  "name": "dockerforstatichtml",
+  "version": "1.0.0",
+  "description": "simple static html with tests and ci_cd",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.47.1"
+  }
+}
