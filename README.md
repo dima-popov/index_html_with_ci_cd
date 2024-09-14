@@ -29,6 +29,7 @@
 8. Create a new app on the DigitalOcean App Platform.
 9. Select "Deploy from DigitalOcean Container Registry" and select your image.
 10. Ensure the "Autodeploy on image update" checkbox is checked.
+11. Ensure that you use 80 port for container, not 8080 or other (change it in App Platform).
 
 Set "secrets" in GitHub.
 
