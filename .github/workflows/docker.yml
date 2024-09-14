@@ -24,7 +24,7 @@ jobs:
           password: ${{ secrets.DIGITALOCEAN_REGISTRY_PASSWORD }}
 
       - name: Build Docker image
-        run: docker build -t registry.digitalocean.com/<your-registry>/<your-image>:latest .
+        run: docker build -t registry.digitalocean.com/${{ secrets.DIGITALOCEAN_REGISTRY_NAME }}/${{ secrets.DIGITALOCEAN_REGISTRY_IMAGE }}:latest .
 
       - name: Push Docker image
-        run: docker push registry.digitalocean.com/<your-registry>/<your-image>:latest
+        run: docker push registry.digitalocean.com/${{ secrets.DIGITALOCEAN_REGISTRY_NAME }}/${{ secrets.DIGITALOCEAN_REGISTRY_IMAGE }}:latest
