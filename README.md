@@ -19,6 +19,7 @@
 5. Create a repository in the DigitalOcean Container Registry.
 6. Push the local Docker image to the DigitalOcean Container Registry:
    ```bash
+   docker login registry.digitalocean.com
    docker tag simple-html registry.digitalocean.com/<repo-name>/simple-html
    docker push registry.digitalocean.com/<repo-name>/simple-html
    ```
