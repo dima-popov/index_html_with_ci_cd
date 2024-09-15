@@ -35,6 +35,14 @@ Set "secrets" in GitHub.
 
 Now, when you push something to the main branch of your GitHub repository, tests will be started, then the image will be built and pushed to the DigitalOcean Container Registry, and finally, it will be deployed on the App Platform.
 
+**Of course, there are many ways to publish a static file, including using a CDN. This example is intended to demonstrate deployment with containers, which is versatile. You can modify the Dockerfile to deploy, for example, a Next.js application. All you need to do then is create a cluster with MongoDB, and you will have a Fullstack application with CI/CD.**
+
 [DigitalOcean App Platform with Container Registry](https://www.youtube.com/watch?v=YAeOzVTN4EQ)
+
 [DigitalOcean App Platform](https://docs.digitalocean.com/products/app-platform/how-to/deploy-from-container-images/)
+
 [DigitalOcean Container Registry](https://docs.digitalocean.com/products/container-registry/getting-started/quickstart/)
+
+[DigitalOcean MongoDB Cluster](https://docs.digitalocean.com/products/databases/mongodb/how-to/create/)
+
+[DigitalOcean MongoDB Connection](https://docs.digitalocean.com/products/databases/mongodb/how-to/connect/)
